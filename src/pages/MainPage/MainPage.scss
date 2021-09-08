@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,p {
+    margin: 0;
+    padding: 0;
+}
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.search {
+    background: #44414E;
+    border-radius: 32px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 100%;
+    color: #C4C1CF;
+    border: none;
+    padding: 15px 18px;
+    width: 100%;
+    max-width: 320px;
+    &::placeholder {
+        color: #FFFFFF;
+        font-size: 18px;
+    }
+}

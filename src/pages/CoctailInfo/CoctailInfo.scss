@@ -1,0 +1,55 @@
+.coctailInfo {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0E0D13;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 32px;
+    min-height: 421px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 24px 32px;
+    gap: 5px;
+    &__back {
+        background: #44414E;
+        border-radius: 16px;
+        padding: 20px 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: auto;
+        cursor: pointer;
+        border: none;
+    }
+    &__icon {
+        width: 15px;
+        height: 24px;
+    }
+    &__name {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%;
+        letter-spacing: 0.07em;
+        color: #FFFFFF;
+    }
+    &__text {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        color: #C4C1CF;
+    }
+    &__cook {
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+    &__instruction {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 120%;
+        text-align: justify;
+        color: #C4C1CF;
+    }
+}
